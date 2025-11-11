@@ -122,7 +122,7 @@ def main():
     # --- 儲存結果 ---
     sub = pd.DataFrame({"name": te["name"], "price": final_pred})
     sub.to_csv(args.output_path, index=False, quoting=csv.QUOTE_MINIMAL)
-    print(f"✅ Saved predictions to: {args.output_path}")
+    print(f"Saved predictions to: {args.output_path}")
 
 if __name__ == "__main__":
     main()

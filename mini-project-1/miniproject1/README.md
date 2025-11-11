@@ -1,11 +1,14 @@
+
 # Miniproject1
 
 ---
 
+## 1. 檔案說明
+
 ```bash
 # 資料夾結構
 miniproject1/
-├── inference.sh
+├── inference.sh # 呼叫 src/inference.py 進行預測
 ├── models
 │   ├── blender.txt
 │   ├── modelA.joblib
@@ -17,11 +20,13 @@ miniproject1/
 ├── requirements.txt
 ├── venv/
 └── src
-    ├── inference.py
-    └── train.py
+    ├── inference.py # 預測
+    └── train.py # 模型訓練
 ```
 
-## 1.  套件安裝 （應該都已經都用好，可跳過）
+---
+
+## 2.  套件安裝 （應該都已經都用好，可跳過）
 
 ```bash
 cd miniproject1/
@@ -35,7 +40,7 @@ pip install -r requirements.txt
 
 ---
 
-## 2. 模型
+## 3. 模型
 
 訓練好的模型已經存放在 `models/` 中，如果要重新訓練模型可使用以下指令
 
@@ -49,8 +54,11 @@ python src/train.py --train_path train.csv --model_dir models
 
 ---
 
-## 3.  使用 (Usage / Inference)
+## 4.  使用 (Usage / Inference)
 
 ```bash
-
+cd ~/miniproject1
+./inference.sh --test <test_file> #替換成實際路徑
 ```
+
+他會將預測結果輸出至 `~/miniproject1/predictions.csv` 。
