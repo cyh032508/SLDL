@@ -160,7 +160,7 @@ def main():
     RMSE = mean_squared_error(y, final_pred_train) ** 0.5
     print("\n=== 訓練集預估表現 (SMAPE) ===")
     print(f"SMAPE: {SMAPE:.2f}% | MAE: {MAE:.2f} | RMSE: {RMSE:.2f}")
-    print("✅ Training complete. Models saved in 'models/' folder.")
+    print("Training complete. Models saved in 'models/' folder.")
 
 if __name__ == "__main__":
     main()
