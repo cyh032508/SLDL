@@ -1,0 +1,68 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            pgw2ah8v4cslhoard4nkytbxx9zijs48:
+                apple:
+                    ecpuCores: 2
+                    gpuCores: 14
+                    memoryGb: 16
+                    name: Apple M1 Pro
+                    pcpuCores: 6
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "4294967296"
+                codePath: /Users/jiangyanhong/Desktop/2025-Fall/SLDL/w11lab/regu_opt_v2-stn.ipynb
+                codePathLocal: regu_opt_v2-stn.ipynb
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "427465330688"
+                email: chiangian1121@gmail.com
+                executable: /opt/homebrew/Caskroom/miniconda/base/bin/python
+                git:
+                    commit: de2a6a5a1c0c6b53365401fe35ac3901c1445a68
+                    remote: https://github.com/cyh032508/SLDL.git
+                host: ZZZZZZZ.local
+                memory:
+                    total: "17179869184"
+                os: macOS-26.1-arm64-arm-64bit
+                program: /Users/jiangyanhong/Desktop/2025-Fall/SLDL/w11lab/regu_opt_v2-stn.ipynb
+                python: CPython 3.12.9
+                root: /Users/jiangyanhong/Desktop/2025-Fall/SLDL/w11lab
+                startedAt: "2025-11-13T04:03:45.086048Z"
+                writerId: pgw2ah8v4cslhoard4nkytbxx9zijs48
+        m: []
+        python_version: 3.12.9
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.12.9
+            "5": 0.23.0
+            "8":
+                - 1
+            "12": 0.23.0
+            "13": darwin-arm64
+arch:
+    value: mlp
+dataset:
+    value: breast cancer
+epochs:
+    value: 2000
+learning_rate:
+    value: 0.005
+momentum:
+    value: 0.5
+weight_decay:
+    value: 0

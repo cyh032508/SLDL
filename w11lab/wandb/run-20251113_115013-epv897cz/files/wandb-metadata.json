@@ -1,0 +1,37 @@
+{
+  "os": "macOS-26.1-arm64-arm-64bit",
+  "python": "CPython 3.12.9",
+  "startedAt": "2025-11-13T03:50:13.917245Z",
+  "program": "/Users/jiangyanhong/Desktop/2025-Fall/SLDL/w11lab/regu_opt_v2-stn.ipynb",
+  "codePath": "/Users/jiangyanhong/Desktop/2025-Fall/SLDL/w11lab/regu_opt_v2-stn.ipynb",
+  "codePathLocal": "regu_opt_v2-stn.ipynb",
+  "git": {
+    "remote": "https://github.com/cyh032508/SLDL.git",
+    "commit": "de2a6a5a1c0c6b53365401fe35ac3901c1445a68"
+  },
+  "email": "chiangian1121@gmail.com",
+  "root": "/Users/jiangyanhong/Desktop/2025-Fall/SLDL/w11lab",
+  "host": "ZZZZZZZ.local",
+  "executable": "/opt/homebrew/Caskroom/miniconda/base/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "427415015424"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "apple": {
+    "name": "Apple M1 Pro",
+    "ecpuCores": 2,
+    "pcpuCores": 6,
+    "gpuCores": 14,
+    "memoryGb": 16,
+    "swapTotalBytes": "4294967296",
+    "ramTotalBytes": "17179869184"
+  },
+  "writerId": "vt0c2qwkgv1q3xx17w7uhwq0jmsy9nvq"
+}
