@@ -2,3 +2,4 @@
 .ipynb_checkpoints
 .vscode
 w8lab/creditcard.csv
+.venv
