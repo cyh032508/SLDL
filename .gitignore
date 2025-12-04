@@ -7,4 +7,5 @@ w12lab/data/
 hw3/food101/
 hw3/saved_models/
 hw3/saved_features/
-
+hw3/saved_fc_only/
+hw3/best_fc_only.pth
